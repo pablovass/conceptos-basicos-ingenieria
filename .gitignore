@@ -1,0 +1,22 @@
+# Ignorar los archivos y carpetas generados por Obsidian
+/.obsidian
+
+# Ignorar los archivos de respaldo y temporales
+*~
+*.swp
+*.bak
+
+# Ignorar los archivos de caché
+.cache/
+
+# Ignorar los archivos de registro
+logs/
+
+# Ignorar los archivos de exportación
+/_export/
+
+# Ignorar los archivos de respaldo automáticos de plugins
+/.trash/
+
+# Ignorar los archivos de configuración local
+/.obsidian.md

@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"8a499880f9c6f951","type":"text","text":"son 4 programadores","x":80,"y":-80,"width":250,"height":60},
+		{"id":"78c42b79f78476a3","type":"text","text":"develop","x":-66,"y":-260,"width":120,"height":60},
+		{"id":"ffae6705f4eb95f2","type":"text","text":"dueño - Fabian ","x":-280,"y":-455,"width":172,"height":50},
+		{"id":"33919ba868e307c4","type":"text","text":"main ","x":-8,"y":-440,"width":125,"height":50},
+		{"id":"d357bf7181968bad","type":"text","text":"repo: proyecto web ","x":230,"y":-465,"width":250,"height":60},
+		{"id":"983eb3bad8780c26","type":"text","text":"rama tarea ","x":255,"y":-260,"width":150,"height":60},
+		{"id":"63da0b3aa75e3ddb","x":-380,"y":120,"width":250,"height":60,"type":"text","text":"rama tarea "},
+		{"id":"b4df75160dd68c08","x":280,"y":120,"width":250,"height":60,"type":"text","text":"main "},
+		{"id":"78d95e2a0cc04177","x":280,"y":260,"width":250,"height":60,"type":"text","text":"codigo productivo"},
+		{"id":"1e79ba2acae6d200","x":-100,"y":120,"width":120,"height":60,"type":"text","text":"develop "}
+	],
+	"edges":[
+		{"id":"1217a22c6224570f","fromNode":"d357bf7181968bad","fromSide":"bottom","toNode":"33919ba868e307c4","toSide":"right"},
+		{"id":"bdc9498bbdd7a896","fromNode":"d357bf7181968bad","fromSide":"bottom","toNode":"78c42b79f78476a3","toSide":"top"},
+		{"id":"9ea53b8a5ffddd7a","fromNode":"8a499880f9c6f951","fromSide":"top","toNode":"983eb3bad8780c26","toSide":"bottom"},
+		{"id":"6367223d62d60dd7","fromNode":"33919ba868e307c4","fromSide":"left","toNode":"ffae6705f4eb95f2","toSide":"right"},
+		{"id":"435b995ee57ad1a3","fromNode":"983eb3bad8780c26","fromSide":"left","toNode":"78c42b79f78476a3","toSide":"right","label":"pull request"},
+		{"id":"4afb86880819342c","fromNode":"78c42b79f78476a3","fromSide":"left","toNode":"33919ba868e307c4","toSide":"left","label":"pr -con permisos de fabian"},
+		{"id":"3ea206c0ad34d099","fromNode":"63da0b3aa75e3ddb","fromSide":"right","toNode":"1e79ba2acae6d200","toSide":"left"},
+		{"id":"1edf959810b826c5","fromNode":"b4df75160dd68c08","fromSide":"bottom","toNode":"78d95e2a0cc04177","toSide":"top"},
+		{"id":"77e69caaec9080b1","fromNode":"1e79ba2acae6d200","fromSide":"right","toNode":"b4df75160dd68c08","toSide":"left","label":"fabian autoriza"}
+	]
+}
