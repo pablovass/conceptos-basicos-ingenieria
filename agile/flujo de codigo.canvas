@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"b7e9785ec44dfc5c","x":-720,"y":-280,"width":250,"height":60,"type":"text","text":"equipos de trabajos"},
+		{"id":"76968976fd2ebe4d","x":-420,"y":-310,"width":120,"height":50,"type":"text","text":"front"},
+		{"id":"d1f8b852f0ab73ae","x":-412,"y":-220,"width":105,"height":60,"type":"text","text":"back "},
+		{"id":"30634a7796427e65","x":-260,"y":-260,"width":205,"height":60,"type":"text","text":"escriben programas"},
+		{"id":"2f3dbf6d774347df","x":80,"y":-260,"width":100,"height":60,"type":"text","text":"git"},
+		{"id":"c7d2495c2e5abad3","x":420,"y":-370,"width":140,"height":60,"type":"text","text":"la nube"},
+		{"id":"963db6071b9cfd7e","x":400,"y":-160,"width":250,"height":60,"type":"text","text":"ambientes de desarrollos"},
+		{"id":"c946b992f6a91430","x":240,"y":-310,"width":160,"height":60,"type":"text","text":"kubernetes"},
+		{"id":"563940a59a68dd8d","x":195,"y":-160,"width":125,"height":60,"type":"text","text":"jenkis"},
+		{"id":"8259bfbb4ba3fb2b","x":490,"y":20,"width":185,"height":60,"color":"1","type":"text","text":"rama productiva"},
+		{"id":"57a4d9d1f85450e8","x":169,"y":20,"width":177,"height":60,"color":"1","type":"text","text":"rama master"},
+		{"id":"0163df8a6ba86bf9","x":-20,"y":-80,"width":177,"height":60,"type":"text","text":"rama develop "},
+		{"id":"3e88eb198cad1544","x":-260,"y":-80,"width":145,"height":60,"type":"text","text":"rama tarea"}
+	],
+	"edges":[
+		{"id":"61c065f9a3c2fe72","fromNode":"b7e9785ec44dfc5c","fromSide":"right","toNode":"76968976fd2ebe4d","toSide":"left","color":"3"},
+		{"id":"111b738b6626a69b","fromNode":"b7e9785ec44dfc5c","fromSide":"right","toNode":"d1f8b852f0ab73ae","toSide":"left","color":"3"},
+		{"id":"a0d6af44901120ca","fromNode":"d1f8b852f0ab73ae","fromSide":"right","toNode":"30634a7796427e65","toSide":"left","color":"3"},
+		{"id":"95238fa2c8bc06ba","fromNode":"76968976fd2ebe4d","fromSide":"right","toNode":"30634a7796427e65","toSide":"left","color":"3"},
+		{"id":"cce43a27dee36d1b","fromNode":"563940a59a68dd8d","fromSide":"top","toNode":"2f3dbf6d774347df","toSide":"right","color":"3"},
+		{"id":"79b4123efa42e7a2","fromNode":"563940a59a68dd8d","fromSide":"bottom","toNode":"963db6071b9cfd7e","toSide":"right","color":"3"},
+		{"id":"b7569d456096d68b","fromNode":"563940a59a68dd8d","fromSide":"right","toNode":"c946b992f6a91430","toSide":"bottom","color":"3"},
+		{"id":"b998b0386b7ff8a9","fromNode":"963db6071b9cfd7e","fromSide":"top","toNode":"c946b992f6a91430","toSide":"right","color":"3"},
+		{"id":"e13f784d4972ea63","fromNode":"c946b992f6a91430","fromSide":"top","toNode":"c7d2495c2e5abad3","toSide":"left","color":"3"},
+		{"id":"7cf8cb883a358e14","fromNode":"57a4d9d1f85450e8","fromSide":"right","toNode":"8259bfbb4ba3fb2b","toSide":"left","color":"1","label":"no se toca"},
+		{"id":"c53bcc5efe603c91","fromNode":"30634a7796427e65","fromSide":"bottom","toNode":"3e88eb198cad1544","toSide":"top"},
+		{"id":"2e1027e03ec18d54","fromNode":"3e88eb198cad1544","fromSide":"right","toNode":"2f3dbf6d774347df","toSide":"left"},
+		{"id":"4f899dcc1244bb4b","fromNode":"2f3dbf6d774347df","fromSide":"bottom","toNode":"0163df8a6ba86bf9","toSide":"top","color":"4"},
+		{"id":"9629cd5a66ed1998","fromNode":"0163df8a6ba86bf9","fromSide":"right","toNode":"563940a59a68dd8d","toSide":"bottom","color":"4"},
+		{"id":"82ebccb9e82a952e","fromNode":"0163df8a6ba86bf9","fromSide":"top","toNode":"2f3dbf6d774347df","toSide":"bottom","color":"4"}
+	]
+}
