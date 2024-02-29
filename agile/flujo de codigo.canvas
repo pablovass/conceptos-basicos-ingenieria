@@ -1,18 +1,28 @@
 {
 	"nodes":[
-		{"id":"b7e9785ec44dfc5c","x":-720,"y":-280,"width":250,"height":60,"type":"text","text":"equipos de trabajos"},
-		{"id":"76968976fd2ebe4d","x":-420,"y":-310,"width":120,"height":50,"type":"text","text":"front"},
-		{"id":"d1f8b852f0ab73ae","x":-412,"y":-220,"width":105,"height":60,"type":"text","text":"back "},
-		{"id":"30634a7796427e65","x":-260,"y":-260,"width":205,"height":60,"type":"text","text":"escriben programas"},
-		{"id":"2f3dbf6d774347df","x":80,"y":-260,"width":100,"height":60,"type":"text","text":"git"},
-		{"id":"c7d2495c2e5abad3","x":420,"y":-370,"width":140,"height":60,"type":"text","text":"la nube"},
-		{"id":"963db6071b9cfd7e","x":400,"y":-160,"width":250,"height":60,"type":"text","text":"ambientes de desarrollos"},
-		{"id":"c946b992f6a91430","x":240,"y":-310,"width":160,"height":60,"type":"text","text":"kubernetes"},
-		{"id":"563940a59a68dd8d","x":195,"y":-160,"width":125,"height":60,"type":"text","text":"jenkis"},
-		{"id":"8259bfbb4ba3fb2b","x":490,"y":20,"width":185,"height":60,"color":"1","type":"text","text":"rama productiva"},
-		{"id":"57a4d9d1f85450e8","x":169,"y":20,"width":177,"height":60,"color":"1","type":"text","text":"rama master"},
-		{"id":"0163df8a6ba86bf9","x":-20,"y":-80,"width":177,"height":60,"type":"text","text":"rama develop "},
-		{"id":"3e88eb198cad1544","x":-260,"y":-80,"width":145,"height":60,"type":"text","text":"rama tarea"}
+		{"id":"b7e9785ec44dfc5c","type":"text","text":"equipos de trabajos","x":-720,"y":-280,"width":250,"height":60},
+		{"id":"76968976fd2ebe4d","type":"text","text":"front","x":-420,"y":-310,"width":120,"height":50},
+		{"id":"d1f8b852f0ab73ae","type":"text","text":"back ","x":-412,"y":-220,"width":105,"height":60},
+		{"id":"30634a7796427e65","type":"text","text":"escriben programas","x":-260,"y":-260,"width":205,"height":60},
+		{"id":"2f3dbf6d774347df","type":"text","text":"git","x":80,"y":-260,"width":100,"height":60},
+		{"id":"c7d2495c2e5abad3","type":"text","text":"la nube","x":420,"y":-370,"width":140,"height":60},
+		{"id":"963db6071b9cfd7e","type":"text","text":"ambientes de desarrollos","x":400,"y":-160,"width":250,"height":60},
+		{"id":"c946b992f6a91430","type":"text","text":"kubernetes","x":240,"y":-310,"width":160,"height":60},
+		{"id":"563940a59a68dd8d","type":"text","text":"jenkis","x":195,"y":-160,"width":125,"height":60},
+		{"id":"8259bfbb4ba3fb2b","type":"text","text":"rama productiva","x":490,"y":20,"width":185,"height":60,"color":"1"},
+		{"id":"57a4d9d1f85450e8","type":"text","text":"rama master","x":169,"y":20,"width":177,"height":60,"color":"1"},
+		{"id":"0163df8a6ba86bf9","type":"text","text":"rama develop ","x":-20,"y":-80,"width":189,"height":50},
+		{"id":"3e88eb198cad1544","type":"text","text":"rama tarea","x":-260,"y":-80,"width":145,"height":60},
+		{"id":"3fecce184a561c9c","x":-20,"y":-400,"width":250,"height":60,"type":"text","text":"gitlab -bitbuket - github"},
+		{"id":"fd45f3ab19079dfa","x":-340,"y":140,"width":153,"height":60,"type":"text","text":"progradores "},
+		{"id":"a1eede2361785712","x":-115,"y":140,"width":97,"height":60,"type":"text","text":"git"},
+		{"id":"6c10327e2e191110","x":50,"y":140,"width":110,"height":60,"type":"text","text":"jenkis"},
+		{"id":"c623e2e2deabbf19","x":220,"y":140,"width":180,"height":60,"type":"text","text":"kubernetes (aks - openshit) "},
+		{"id":"bebde0fe1bdc814a","x":420,"y":140,"width":250,"height":60,"type":"text","text":"la nube (google - aws - azure)"},
+		{"id":"29651df25eeac23f","x":15,"y":335,"width":250,"height":60,"type":"text","text":"dev "},
+		{"id":"fcc769618380c6c6","x":15,"y":440,"width":250,"height":60,"type":"text","text":"prod"},
+		{"id":"38e477634ce55974","x":15,"y":540,"width":250,"height":60,"type":"text","text":"qa"},
+		{"id":"df7960df9246327f","x":15,"y":242,"width":125,"height":60,"type":"text","text":"sonar q"}
 	],
 	"edges":[
 		{"id":"61c065f9a3c2fe72","fromNode":"b7e9785ec44dfc5c","fromSide":"right","toNode":"76968976fd2ebe4d","toSide":"left","color":"3"},
@@ -29,6 +39,15 @@
 		{"id":"2e1027e03ec18d54","fromNode":"3e88eb198cad1544","fromSide":"right","toNode":"2f3dbf6d774347df","toSide":"left"},
 		{"id":"4f899dcc1244bb4b","fromNode":"2f3dbf6d774347df","fromSide":"bottom","toNode":"0163df8a6ba86bf9","toSide":"top","color":"4"},
 		{"id":"9629cd5a66ed1998","fromNode":"0163df8a6ba86bf9","fromSide":"right","toNode":"563940a59a68dd8d","toSide":"bottom","color":"4"},
-		{"id":"82ebccb9e82a952e","fromNode":"0163df8a6ba86bf9","fromSide":"top","toNode":"2f3dbf6d774347df","toSide":"bottom","color":"4"}
+		{"id":"82ebccb9e82a952e","fromNode":"0163df8a6ba86bf9","fromSide":"top","toNode":"2f3dbf6d774347df","toSide":"bottom","color":"4","label":"pull request"},
+		{"id":"797e230ce7229db7","fromNode":"2f3dbf6d774347df","fromSide":"top","toNode":"3fecce184a561c9c","toSide":"bottom","label":"="},
+		{"id":"2e422d2ac90c97a8","fromNode":"a1eede2361785712","fromSide":"left","toNode":"fd45f3ab19079dfa","toSide":"right"},
+		{"id":"702e1d4a167288f2","fromNode":"a1eede2361785712","fromSide":"right","toNode":"6c10327e2e191110","toSide":"left"},
+		{"id":"71ea09fd7baf2f7f","fromNode":"6c10327e2e191110","fromSide":"right","toNode":"c623e2e2deabbf19","toSide":"left"},
+		{"id":"5ccd8085f5de284a","fromNode":"c623e2e2deabbf19","fromSide":"right","toNode":"bebde0fe1bdc814a","toSide":"left"},
+		{"id":"3a83074d497c5f2d","fromNode":"c623e2e2deabbf19","fromSide":"bottom","toNode":"29651df25eeac23f","toSide":"right"},
+		{"id":"ab51081d7b41bc97","fromNode":"c623e2e2deabbf19","fromSide":"bottom","toNode":"fcc769618380c6c6","toSide":"right"},
+		{"id":"393b56d0a4754830","fromNode":"c623e2e2deabbf19","fromSide":"bottom","toNode":"38e477634ce55974","toSide":"right"},
+		{"id":"f6df7eabed86e7c8","fromNode":"df7960df9246327f","fromSide":"top","toNode":"6c10327e2e191110","toSide":"bottom"}
 	]
 }

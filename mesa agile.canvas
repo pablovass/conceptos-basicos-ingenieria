@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"ec276636bb4dc696","type":"text","text":"product onerw\n","x":-175,"y":-300,"width":175,"height":60},
+		{"id":"f3e1222f042f982f","type":"text","text":"desarrollo ","x":-550,"y":-270,"width":135,"height":60},
+		{"id":"a114999b0cd57552","type":"text","text":"qa","x":-540,"y":-160,"width":250,"height":60},
+		{"id":"4d013620b1ba7723","type":"text","text":"al negocio","x":30,"y":-130,"width":145,"height":60},
+		{"id":"814586a96bd3eacd","type":"text","text":"team leader= no programa ","x":-20,"y":-410,"width":260,"height":60},
+		{"id":"952f123a28c233c8","type":"text","text":"lider tecnico (si programa) ","x":-680,"y":-405,"width":265,"height":50},
+		{"id":"7f7e9943a1e01f58","type":"text","text":"lider de proyecto","x":-342,"y":-355,"width":135,"height":70},
+		{"id":"4171da2e8a1c09a9","type":"text","text":"arquitecto ","x":-347,"y":-270,"width":140,"height":60},
+		{"id":"f50cb816511641d5","type":"text","text":"scrum master","x":-260,"y":-70,"width":160,"height":60}
+	],
+	"edges":[
+		{"id":"2481587a8efdf996","fromNode":"f3e1222f042f982f","fromSide":"top","toNode":"ec276636bb4dc696","toSide":"top"},
+		{"id":"fb55134abaad3042","fromNode":"a114999b0cd57552","fromSide":"right","toNode":"ec276636bb4dc696","toSide":"bottom"},
+		{"id":"f81aa2147463cfb0","fromNode":"4d013620b1ba7723","fromSide":"left","toNode":"ec276636bb4dc696","toSide":"bottom"},
+		{"id":"82ada412cb08ef32","fromNode":"ec276636bb4dc696","fromSide":"right","toNode":"4d013620b1ba7723","toSide":"right"},
+		{"id":"f71ba7f754cc56dd","fromNode":"952f123a28c233c8","fromSide":"right","toNode":"ec276636bb4dc696","toSide":"top"},
+		{"id":"57c865c11c5ebbec","fromNode":"814586a96bd3eacd","fromSide":"bottom","toNode":"ec276636bb4dc696","toSide":"top"},
+		{"id":"aff04c0400a3b018","fromNode":"814586a96bd3eacd","fromSide":"top","toNode":"f3e1222f042f982f","toSide":"left"},
+		{"id":"bf45309a0a3097f9","fromNode":"952f123a28c233c8","fromSide":"left","toNode":"f3e1222f042f982f","toSide":"left"},
+		{"id":"fcac7abd190aed2f","fromNode":"f50cb816511641d5","fromSide":"right","toNode":"ec276636bb4dc696","toSide":"right"}
+	]
+}
