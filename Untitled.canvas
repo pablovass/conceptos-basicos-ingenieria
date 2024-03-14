@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"825729b2c0411721","x":-200,"y":320,"width":250,"height":60,"type":"text","text":""},
+		{"id":"8061d78d6acc1fc2","x":-320,"y":-370,"width":160,"height":60,"type":"text","text":"web service "},
+		{"id":"303da9d548b2e7ba","x":-120,"y":-485,"width":125,"height":50,"type":"text","text":"api rest"},
+		{"id":"4514b8efdbc9d4bf","x":60,"y":-400,"width":89,"height":60,"type":"text","text":"Soa"},
+		{"id":"0270bd23df73955e","x":216,"y":-260,"width":149,"height":60,"type":"text","text":"json "},
+		{"id":"8b63629998b0bf52","x":246,"y":-490,"width":89,"height":60,"type":"text","text":"xml"}
+	],
+	"edges":[]
+}

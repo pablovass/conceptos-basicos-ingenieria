@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"e6a87c5f48f1ffaf","type":"text","text":"index.js","x":-320,"y":-280,"width":140,"height":60,"color":"3"},
+		{"id":"436d4dee726f60a1","type":"text","text":"datos de entrada - en consola","x":-80,"y":-360,"width":250,"height":60,"color":"4"},
+		{"id":"deda8022352f42ec","type":"text","text":"pelis.json","x":-150,"y":-100,"width":140,"height":60,"color":"3"},
+		{"id":"c3e91ee698c2b62b","type":"text","text":"pelis.js","x":-340,"y":-140,"width":120,"height":60,"color":"3"},
+		{"id":"8426ac0f6bf0c82e","type":"text","text":"datos de salida ","x":45,"y":-250,"width":205,"height":60,"color":"1"}
+	],
+	"edges":[
+		{"id":"812469e3208279f6","fromNode":"436d4dee726f60a1","fromSide":"left","toNode":"e6a87c5f48f1ffaf","toSide":"top"},
+		{"id":"0a08440e75aee2fa","fromNode":"e6a87c5f48f1ffaf","fromSide":"right","toNode":"8426ac0f6bf0c82e","toSide":"left","label":"mostrar por consola"},
+		{"id":"a90433bbd04a1663","fromNode":"e6a87c5f48f1ffaf","fromSide":"bottom","toNode":"c3e91ee698c2b62b","toSide":"top","label":"me piden --sort"},
+		{"id":"3c027ca99a22fcde","fromNode":"c3e91ee698c2b62b","fromSide":"bottom","toNode":"deda8022352f42ec","toSide":"left"},
+		{"id":"d214caaa3227382f","fromNode":"c3e91ee698c2b62b","fromSide":"left","toNode":"e6a87c5f48f1ffaf","toSide":"left","label":"dar la salida"},
+		{"id":"3eacbaf18d9e3703","fromNode":"deda8022352f42ec","fromSide":"bottom","toNode":"c3e91ee698c2b62b","toSide":"left","label":"devuelve --sort"}
+	]
+}

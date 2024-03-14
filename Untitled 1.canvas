@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"fd9f7c3cc0c6b382","x":-530,"y":-420,"width":260,"height":60,"type":"text","text":"elementos de un objecto"},
+		{"id":"015367f47c29fb0f","x":-238,"y":-420,"width":178,"height":60,"color":"6","type":"text","text":"persona - auto"},
+		{"id":"5db3e8e38fea13f8","x":-308,"y":-60,"width":220,"height":60,"color":"3","type":"text","text":"constructores "},
+		{"id":"8540b4224048c5ce","x":-312,"y":-160,"width":258,"height":60,"color":"3","type":"text","text":"métodos del objeto "},
+		{"id":"3501708c247ebf70","x":-308,"y":-240,"width":250,"height":60,"color":"3","type":"text","text":"metodo de los atributos (setter y guetters)"},
+		{"id":"93f2801ee2822245","x":-308,"y":-320,"width":140,"height":60,"color":"3","type":"text","text":"atributos"}
+	],
+	"edges":[
+		{"id":"88d929b2c820a23e","fromNode":"fd9f7c3cc0c6b382","fromSide":"bottom","toNode":"3501708c247ebf70","toSide":"left","color":"2"},
+		{"id":"6348fd6e35ff9a31","fromNode":"fd9f7c3cc0c6b382","fromSide":"bottom","toNode":"8540b4224048c5ce","toSide":"left","color":"2"},
+		{"id":"8f6df6728a995301","fromNode":"fd9f7c3cc0c6b382","fromSide":"bottom","toNode":"5db3e8e38fea13f8","toSide":"left","color":"2"},
+		{"id":"a8d9864955437aea","fromNode":"fd9f7c3cc0c6b382","fromSide":"right","toNode":"015367f47c29fb0f","toSide":"left"},
+		{"id":"44843bee1d95e054","fromNode":"fd9f7c3cc0c6b382","fromSide":"bottom","toNode":"93f2801ee2822245","toSide":"left","color":"2"}
+	]
+}

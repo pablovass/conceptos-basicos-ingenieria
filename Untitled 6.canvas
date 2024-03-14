@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"aa2645e8e079239d","type":"text","text":"metodos ","x":-80,"y":60,"width":140,"height":60},
+		{"id":"4bf2c9b0421ce8cb","type":"text","text":"sobrecarga ","x":-320,"y":30,"width":160,"height":60},
+		{"id":"f9ee739505dc4f92","type":"text","text":"constructores ","x":-100,"y":-30,"width":160,"height":60},
+		{"id":"87361a8b098e6b22","x":-391,"y":-240,"width":142,"height":60,"type":"text","text":"clase java"},
+		{"id":"122916465f7dec55","x":-386,"y":-109,"width":132,"height":60,"type":"text","text":"objeto"},
+		{"id":"35de223cdfcb8a52","x":-60,"y":-240,"width":202,"height":60,"type":"text","text":"es una platilla java"},
+		{"id":"f9010b5c5f4a521a","x":-171,"y":-141,"width":322,"height":65,"type":"text","text":"es una cosa que identifica a algo de la vida real"}
+	],
+	"edges":[
+		{"id":"e36301e0e1beb7bc","fromNode":"4bf2c9b0421ce8cb","fromSide":"right","toNode":"f9ee739505dc4f92","toSide":"left"},
+		{"id":"48a1f64092b23c9b","fromNode":"4bf2c9b0421ce8cb","fromSide":"right","toNode":"aa2645e8e079239d","toSide":"left"},
+		{"id":"6089466626c26f81","fromNode":"87361a8b098e6b22","fromSide":"right","toNode":"35de223cdfcb8a52","toSide":"left","label":"si no lo es "},
+		{"id":"4c4d640a8c7513da","fromNode":"122916465f7dec55","fromSide":"right","toNode":"f9010b5c5f4a521a","toSide":"left"},
+		{"id":"cd5f35b0c67c28a9","fromNode":"87361a8b098e6b22","fromSide":"bottom","toNode":"122916465f7dec55","toSide":"top","label":"puede ser "}
+	]
+}

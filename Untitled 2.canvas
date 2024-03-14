@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"732b86f3c0f34075","x":20,"y":-210,"width":250,"height":60,"type":"text","text":"tipo de variables "},
+		{"id":"558b28a464977492","x":-300,"y":-180,"width":140,"height":60,"color":"2","type":"text","text":"variables "},
+		{"id":"e952eb85a7e88589","x":-360,"y":40,"width":305,"height":70,"type":"text","text":"los modificadores ( private- public - default - protecte )"},
+		{"id":"4c17a60182204735","x":20,"y":15,"width":250,"height":60,"type":"text","text":"de objetos (String - Interger -Double)"},
+		{"id":"39bf9551d046958f","x":305,"y":10,"width":250,"height":60,"type":"text","text":"es un espacio en memoria"},
+		{"id":"cd6233a99441ce44","x":180,"y":-100,"width":170,"height":60,"type":"text","text":"primitivas "},
+		{"id":"5f3741762f1e1c54","x":140,"y":180,"width":250,"height":60,"type":"text","text":"tenes acceso a las propiedades de objeto "},
+		{"id":"c24b2f09afea859f","x":-55,"y":280,"width":250,"height":60,"type":"text","text":"Objeto Persona -Auto "},
+		{"id":"a413e45216c02bfe","x":350,"y":-300,"width":170,"height":60,"color":"5","type":"text","text":"contatantes"}
+	],
+	"edges":[
+		{"id":"234c3d451ae98b4a","fromNode":"558b28a464977492","fromSide":"right","toNode":"732b86f3c0f34075","toSide":"left"},
+		{"id":"e8d1ddea9958d454","fromNode":"732b86f3c0f34075","fromSide":"bottom","toNode":"cd6233a99441ce44","toSide":"top","color":"3"},
+		{"id":"91a7cce5cc797b26","fromNode":"732b86f3c0f34075","fromSide":"bottom","toNode":"4c17a60182204735","toSide":"left","color":"3"},
+		{"id":"9a63774541d4397e","fromNode":"558b28a464977492","fromSide":"bottom","toNode":"e952eb85a7e88589","toSide":"top"},
+		{"id":"1e13d664668811f7","fromNode":"cd6233a99441ce44","fromSide":"bottom","toNode":"39bf9551d046958f","toSide":"top","color":"2"},
+		{"id":"8f3b9024e33f2c64","fromNode":"4c17a60182204735","fromSide":"bottom","toNode":"5f3741762f1e1c54","toSide":"top","color":"2"},
+		{"id":"9d4873a861c2ef6f","fromNode":"732b86f3c0f34075","fromSide":"right","toNode":"39bf9551d046958f","toSide":"top","color":"2"},
+		{"id":"1a903018eb3920a3","fromNode":"4c17a60182204735","fromSide":"bottom","toNode":"c24b2f09afea859f","toSide":"top","color":"3"},
+		{"id":"c1542d94f21de8d9","fromNode":"732b86f3c0f34075","fromSide":"top","toNode":"a413e45216c02bfe","toSide":"left"}
+	]
+}
